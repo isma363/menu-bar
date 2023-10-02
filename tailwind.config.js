@@ -2,6 +2,7 @@
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
@@ -14,7 +15,13 @@ module.exports = {
       },
       textColor: ["active"],
       spacing: {
-        400: "400px",
+        // 28: "1.75rem",
+        // 10: "0.625rem",
+      },
+      minWidth: {
+        "1/2": "50%",
+        "1/3": "33.33%",
+        "1/4": "25%",
       },
     },
   },
